@@ -1,0 +1,279 @@
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #252525;
+}
+
+.bg-img {
+        background-image: url(fattoria-banner-1.jpg);
+        min-height: 380px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact h1{
+    font-size: 65px;
+    text-align: center;
+    color: black;
+}
+
+.foody{
+    font-size: 55px;
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #898989;
+}
+
+.container img{
+    background-color: white;
+    width: 20px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.contact{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+.contact-nav a{
+    text-decoration: none;
+    padding: 1px;
+    color: black;
+    margin-left: 20px;
+}
+
+.topnav{
+    text-decoration: none;
+    justify-content: left;
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.corpo-hr{
+    border-color:#40bc14;
+    width: 5%;
+    margin-bottom: 10px;
+}
+.corpo-hr2{
+    margin-top: 3px;
+    border-color:#f35a10;
+    width: 6%;
+}
+
+.contatocorpo h1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.contatocorpo p{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.contatocorpo{
+    font-size: 2cm;
+    align-items: center;
+}
+
+.corpo{
+    height: 500px;
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.verde{
+    background-color: #40bc14;
+    width: 30%;
+    padding: 35px;
+    color: white;
+    text-align:justify;
+}
+
+.verde h1{
+    color: white;
+}
+
+.contatocorpo h1{
+    color: black;
+}
+
+.verdetexto{
+    font-size: 25px;
+}
+
+.verdenumero {
+    font-size: 22px;
+    margin-left: 2px;
+}
+
+.verde img{
+    width: 22px;
+}
+
+.form{
+    background-color: white;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.form a{
+    text-decoration: none;
+    color: green;
+}
+
+.form p{
+    text-decoration: none;
+    color: #898989;
+}
+
+input{
+    width: 48%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.subject{
+    display: block;
+    width: 100%;
+}
+
+.input-name {
+    width: 48%;
+}
+
+.input-mail{
+    width: 49%;
+    margin-left: 5px;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+button{
+    background-color: #40bc14;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    margin-top: 20px;
+}
+
+.mapg{
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+footer{
+    height:500px;
+    background-color: black
+}
+
+.footer-divgeral {
+    height: 300px;
+    color: #898989;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.footer-divgeral h1{
+    color: white;
+}
+
+.div1{
+    width: 15%;   
+}
+
+footer img{
+    width: 30px;
+}
+
+.footer-formulario{
+    display: inline;
+    width: 25%;
+}
+
+.footer-formulario form{
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-div2 img{
+width: 20px;
+}
+
+.footer-quicklinks a{
+    text-decoration: none;
+    color: #898989;
+}
+  
+.footer-formulario input{
+    border: none;
+    background-color: black;
+  }
+  
+
+.footer-formulario button{
+    background-color: #40bc14;
+    border-radius: 0px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    margin-top: 1px;
+}
+
+footer hr{
+    border-color: #898989;
+    width: 98%;
+    display: block;
+}
+
+
+
+.copyright{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+
+.divhr{
+    height: 0px;
+padding-top: 10px;
+}
